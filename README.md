@@ -65,7 +65,7 @@ The application is targeted towards members of the general public who will be at
 
 <img src="docs/dataflow_img/5.png" alt="Image Alt Text" style="margin-top: 50px;">
 
-1. User Logins
+1. User signs in
 2. Upon successful login the user is taken to the home screen
 3.  User searches for a bus route by providing three inputs: date, location and time  
 4. Upon searching a get request is sent to the db to receive the appropriate routes in the route collection 
@@ -74,7 +74,7 @@ The application is targeted towards members of the general public who will be at
 
 <img src="docs/dataflow_img/4.png" alt="Image Alt Text" style="margin-top: 50px;">
 
-1. Admin Logs in
+1. Admin signs in
 2. Upon successful login, admin is taken to the home screen
 3. Admin searches for available routes
 4. List of available routes are returned and displayed to the user based on their search criteria
@@ -119,12 +119,12 @@ The application is targeted towards members of the general public who will be at
 7. Reservations are filtered by User_Id and presented.
 8. User selects create new reservation
    - A get request is sent to the route collection
-   - responds with data on available routes
+   - Responds with data on available routes
    - Once selected, a post request is sent to API
    - User Reservation is created
 9. User selects to view singular reservation
-   - get request is sent to the route collection
-   - responds with more data on the selected route
+   - Get request is sent to the route collection
+   - Responds with more data on the selected route
    - When delete reservation is selected a delete request is sent to the API
    - Reservations document is deleted from the database
 
@@ -138,6 +138,7 @@ The application is targeted towards members of the general public who will be at
 6. A get request is sent to Reservation Collection 
 7. Response data lists all the reservations
 
+<p>&nbsp;</p>
 
 # R3 	Application Architecture Diagram
 
