@@ -169,5 +169,21 @@ The application is targeted towards members of the general public who will be at
 
 # R5 	Wireframes for multiple standard screen sizes, created using industry standard software
 
-# R6 	Screenshots of your Trello board throughout the duration of the project
+# R6 	Trello Board Screenshots 
+[Our Trello Board](https://trello.com/b/eErgaOOb/t3a2-team-board)
+
+
+
+<img src="./docs/Trello Screenshots/day 1.png" alt="Trello Screenshot">
+<img src="./docs/Trello Screenshots/day 2.png" alt="Trello Screenshot">
+<img src="./docs/Trello Screenshots/day2.png" alt="Trello Screenshot">
+<img src="./docs/Trello Screenshots/day_2.png" alt="Trello Screenshot">
+<img src="./docs/Trello Screenshots/day3.png" alt="Trello Screenshot">
+<img src="./docs/Trello Screenshots/day_3.png" alt="Trello Screenshot">
+<img src="./docs/Trello Screenshots/day 4.png" alt="Trello Screenshot">
+<img src="./docs/Trello Screenshots/day5.png" alt="Trello Screenshot">
+<img src="./docs/Trello Screenshots/day6.png" alt="Trello Screenshot">
+
+
+
 
