@@ -144,6 +144,29 @@ The application is targeted towards members of the general public who will be at
 
 # R4 	User Stories
 
+| User Story | Acceptance Criteria  | Importance |
+| ----------- | ----------- |----------- |
+| As an end user, I want to be able to search through available shuttle services so that I can easily find ones I am interested in | Given that I am logged in as an end user when I am viewing the home page then I am able to see available shuttle services, depending on capacity | HIGH |
+| As an end-user I want to be able to reserve a ticket online so that I know I am guaranteed a spot | Given that I am signed into my account when I book a ticket then I receive confirmation (ticket)  | HIGH |
+| As an end-user I want to be able to see the reservations I have made so that I can come back later an check the details of my trip  | Given that I am signed into my account when I have booked a ticket then the booking will appear in My Trips | HIGH |
+| As an end user I want to be able sign-up/login in so that I don’t have to enter my details every time I book | Given that I have signed up for an account, when I enter my details in correctly on the login screen then I should receive confirmation of login and be able to access the user functions | HIGH |
+| As an end user I want to be able to update my details | Given that I am signed in, when I navigate to my user profile then I can update my details via a form | HIGH |
+| As an end user I want to be able to delete my account | Given I have an account, when I delete my account, then I don’t have an account | HIGH |
+| As and end user with limited proficiency in technology I want to be able to have a simple to navigate user interface  | Given that I have a low proficiency with technology, when I am anywhere on the website then there is a clear navigational menu, which also indicates where I am | MEDIUM |
+| As an end user with dependents I want to be able to reserve multiple tickets  | Given I am signed in, when I am booking tickets then I can select how many tickets I want to book | HIGH |
+
+| User Story | Acceptance Criteria  | Importance |
+| ----------- | ----------- |----------- |
+| As an admin user I want to be able to easily add new services so that I can offer more services to my users | Given that I am logged in as an admin user when I navigate to ‘All Routes’ then I should see an option to ‘Add a New Route’  | HIGH |
+| As an admin user I want to be able to edit existing services to update details so that these updated details are displayed to the user | Given that I am logged in as an admin user when I navigate to the ‘All Bus Routes’ then I should see a list of all existing bus routes with an option to edit each service  | HIGH |
+| As an admin I want to be able to get a list of reserved tickets for each service so that for each service I can see who has reserved.  | Given that I am logged in as an admin user when viewing a single ‘Bus Route’ then I should be able to view a list of the reservations for that service.  |  HIGH |
+| As an admin I want to be able to delete user reservations so that if a user contacts me to delete their reservation I can.  | Given that I am logged in as an admin user when viewing the list of reservations for a service then I can delete single reservations  |  HIGH |
+| As an admin I want to be able to delete services and all reserved tickets so that if the service is no longer displayed.  | Given that I am logged in as an admin user when I navigate to the ‘All Bus Routes’ then I should see a list of all existing bus routes with an option to delete a single service (deleting all reservations within that service as well)  |  HIGH|
+| As an admin I want to be able to delete user accounts so that if a user contact’s me to delete their account I can. | Given that I am logged in as an admin user when viewing a list of all users then I can delete a individual user’s account | MEDIUM |
+| As an admin I want to be able to grant admin privileges so that if my business grows I can add more admins | Given that I am logged in as an admin user when viewing a list of all users then I can grant admin privileges to individual users | MEDIUM |
+
+
+
 # R5 	Wireframes for multiple standard screen sizes, created using industry standard software
 
 # R6 	Screenshots of your Trello board throughout the duration of the project
