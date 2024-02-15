@@ -141,6 +141,8 @@ The application is targeted towards members of the general public who will be at
 <p>&nbsp;</p>
 
 # R3 	Application Architecture Diagram
+<img src="docs/Architecture Diagram/Architecture.png" alt="Application Architecture Diagram">
+Users access the web app through a variety of different devices. Front end / client side renders the views and handles the user interactions. It will request data from the back end through API calls, and dynamically render the webpages based on the API response data. The Back end receives requests from the front end and applies application logic and will send requests to the database. The database receives queries from the backend and returns stores the requested data.
 
 # R4 	User Stories
 
