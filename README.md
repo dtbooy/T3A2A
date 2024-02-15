@@ -22,11 +22,11 @@ Client X has specified that they will be providing services to three main event 
 ### Login and Registration functionality 
 Users have the capability to register to the app by using their email address and a secure password. Robust authentication procedures ensure the confidentiality and security of user accounts Users have the ability to log in to the application using their email and selected password. 
 ### Search Bar feature
-The application features a search bar which allows a user to search for a bus route based on four  criteria starting location, end location, date and time. Upon searching the application navigates the user to an information page showing information based on their search criteria.
+The application features a search bar which allows a user to search for a bus route based on four criteria starting location, end location, date and time. Upon searching the application navigates the user to an information page showing information based on their search criteria.
 ### Functionality to reserve a ticket 
 Users have the ability to reserve a ticket for a selected bus route. They also have the ability to select multiple tickets for a selected route. 
 ### Navigation Bar feature
-The application provides a user friendly interface that allows users to easily navigate across the web pages. It features a navigation bar which allows users to navigate to the home page, their user profile and their reservations  
+The application provides a user friendly interface that allows users to easily navigate across the web pages. It features a navigation bar which allows users to navigate to the home page, their user profile and their reservations.
 ### Reservations 
 The application allows users to view their current reservations for bus routes. It also allows a user to update or delete their current reservations. 
 ### Locations 
@@ -37,19 +37,19 @@ All users have the ability to view their personal information within their profi
 
 
 ## Target audience
-The application is targeted towards members of the general public who will be attending events at the Brisbane 2032 olympics. The web application is strategically designed to cater to a diverse audience with varying needs and preferences. It is accessible and user friendly for individuals of all backgrounds and abilities. Whether the user is a Brisbane resident, an international visitor, an athlete or an official/volunteer, the web application ensures an intuitive navigation to ensure seamless access to the free shuttle bus service. 
+The application is targeted towards members of the general public who will be attending events at the Brisbane 2032 Olympics. The web application is strategically designed to cater to a diverse audience with varying needs and preferences. It is accessible and user friendly for individuals of all backgrounds and abilities. Whether the user is a Brisbane resident, an international visitor, an athlete or an official/volunteer, the web application ensures an intuitive navigation to ensure seamless access to the free shuttle bus service. 
 
 ## Tech stack
 ### MongoDB 
 MongoDB is a NoSQL database management system which stores data in a flexible JSON-like format
 ### Express.js
-Express.js is a web application framework which provides tools for creating and handling routes and  managing HTTP requests. 
+Express.js is a web application framework which provides tools for creating and handling routes and managing HTTP requests. 
 ### React
 React is a JavaScript library which provides a framework for building dynamic user interfaces with reusable components. 
 ### Node.js
 Node.js is a runtime environment which allows for the execution of JavaScript code on the server side
 ### Mongoose
-Mongoose is an Object Data Modeling library for MongoDB and Node.js which provides a schema-based approach to modelling the data within the application. 
+Mongoose is an Object Data Modelling library for MongoDB and Node.js which provides a schema-based approach to modelling the data within the application. 
 
 ### Third Party Applications / Libraries
 
@@ -59,7 +59,7 @@ Mongoose is an Object Data Modeling library for MongoDB and Node.js which provid
 - **Supertest** - testing framework used for API unit testing
 - **MongoDB Atlas** - cloud database service used for database deployment 
 - **Render** - cloud-based software used for backend deployment 
-- **Netlify** - platform that provides hosting and deployment services, used for front end deployment  
+- **Netlify** - platform that provides hosting and deployment services, used for front end deployment
 - **GitHub & Git** : version control 
 - **Trello**: project management tool 
 - **Draw.io**: used as a design tool to develop DFDs and wireframes 
@@ -95,17 +95,17 @@ Mongoose is an Object Data Modeling library for MongoDB and Node.js which provid
 1. User logs in
 2. User navigates to user information page
 3. User updates details:
-   - Patch request sent to API  
+   - Patch request sent to API 
    - Updated information is verified and user document is updated in database
 4. User requests deletion of account:
-   - Delete request sent to API  
+   - Delete request sent to API 
    - User document is deleted from database
 
 <img src="docs/dataflow_img/5.png" alt="Image Alt Text" style="margin-top: 50px;">
 
 1. User signs in
 2. Upon successful login the user is taken to the home screen
-3.  User searches for a bus route by providing three inputs: date, location and time  
+3. User searches for a bus route by providing three inputs: date, location and time  
 4. Upon searching a get request is sent to the db to receive the appropriate routes in the route collection 
 5. The selected routes are return to be displayed
 6. The user is displayed the appropriate bus routes based on their search parameters 
@@ -183,14 +183,14 @@ Mongoose is an Object Data Modeling library for MongoDB and Node.js which provid
 Users access the web app through a variety of different devices. Front end / client side renders the views and handles the user interactions. It will request data from the back end through API calls, and dynamically render the webpages based on the API response data. The Back end receives requests from the front end and applies application logic and will send requests to the database. The database receives queries from the backend and returns stores the requested data.
 
 # R4 	User Stories
-User stories are a fundamental component of agile software development methodologies, providing a structured approach to understanding and prioritising user needs. We utilised our user stories to help define the scope of the features and functionalities. We decided to do user stories for a standard user and for an admin user - to ensure we covered all aspects of the web application. We found that placing an importance on each story helped us in making informed decisions about what to develop. After developing our dataflow diagrams we went back for a second iteration and refined a few of the user stories, as well as rejected stories that we beielved weren't MVP, however these rejected stories will be reconsidered later depening on timeframes. Upon developing the wireframes we then revised the user stories a third time and refined any that needed changes. 
+User stories are a fundamental component of agile software development methodologies, providing a structured approach to understanding and prioritising user needs. We utilised our user stories to help define the scope of the features and functionalities. We decided to do user stories for a standard user and for an admin user - to ensure we covered all aspects of the web application. We found that placing an importance on each story helped us in making informed decisions about what to develop. After developing our dataflow diagrams we went back for a second iteration and refined a few of the user stories, as well as rejected stories that we believed weren't MVP, however these rejected stories will be reconsidered later depending on timeframes. Upon developing the wireframes we then revised the user stories a third time and refined any that needed changes. 
 
 
 | User Story | Acceptance Criteria | Importance | Accept/Reject | Version |
 |------------|---------------------|:------------:|:---------------:|:---------:|
 | As an end user, I want to be able to search through available shuttle services so that I can easily find ones I am interested in | Given that I am logged in as an end user when I am viewing the available shuttle services then I can have the ability to search/filter for services based on selected criteria | HIGH | Accept | 1 |
 | As an end user I want to be able to reserve a ticket online so that I know I am guaranteed a spot | Given that I am signed into my account when I book a ticket then I receive confirmation (ticket) | MEDIUM | Accept | 1 |
-| As an end user I want to be able to see the reservations I have made so that I can come back later an check the details of my trip | Given that I am signed into my account when I have booked a ticket then the booking will appear in My Trips | HIGH | Accept | 1 |
+| As an end user I want to be able to see the reservations I have made so that I can come back later and check the details of my trip | Given that I am signed into my account when I have booked a ticket then the booking will appear in My Trips | HIGH | Accept | 1 |
 | As an end user I want to be able to select the language the web page is displayed in | Given that I speak another language when I am viewing a web page then I have the ability to toggle between different languages | LOW | Reject | 2 |
 | As an end user I want to be able sign-up/login in so that I don’t have to enter my details every time I book | Given that I have signed up for an account, when I enter my details in correctly on the login screen then I should receive confirmation of login and be able to access the user functions | HIGH | Accept | 1 |
 | As an end user I want to be able to update my details | Given that I am signed in, when I navigate to my user profile then I can update my details | HIGH | Accept | 2 |
