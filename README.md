@@ -226,6 +226,7 @@ User stories are a fundamental component of agile software development methodolo
 <img src="./docs/Trello Screenshots/day 4.png" alt="Trello Screenshot">
 <img src="./docs/Trello Screenshots/day5.png" alt="Trello Screenshot">
 <img src="./docs/Trello Screenshots/day6.png" alt="Trello Screenshot">
+<img src="./docs/Trello Screenshots/day7.png" alt="Trello Screenshot">
 
 
 
