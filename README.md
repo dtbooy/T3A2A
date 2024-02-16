@@ -1,14 +1,18 @@
 # T3A2A
 
-# Development Team 
-### Dirk Booy
-[GitHub Profile](https://github.com/dtbooy)
-### Derdriu McAteer
-[GitHub Profile](https://github.com/derdriu-mcateer)
-### Max Handley
-[GitHub Profile](https://github.com/maxhandley97)
+# GitHub Repo
+[T3A2- Part A Repo](https://github.com/dtbooy/T3A2A)
 
-# R1 	Description of your website:
+# Development Team 
+|  |  |
+|------------|---------------------|
+| Dirk Booy| [GitHub Profile](https://github.com/dtbooy)| 
+| Derdriu McAteer| [GitHub Profile](https://github.com/derdriu-mcateer)| 
+| Max Handley | [GitHub Profile](https://github.com/maxhandley97) |
+
+
+# R1 	Website Description
+
 ## Purpose
 Our client, Client X is the proprietor of a shuttle bus company and has secured a grant to provide public shuttle service for the Brisbane 2032 Olympics. Client X has requested the development of a full stack web application which will streamline the process of securing a ticket for a shuttle service. This web application will allow users to view and book shuttle bus tickets to and from various venues across Brisbane, ensuring smooth and efficient transportation throughout the duration of the Olympics.
 
@@ -210,7 +214,7 @@ User stories are a fundamental component of agile software development methodolo
 
 
 
-# R5 	Wireframes for multiple standard screen sizes, created using industry standard software
+# R5 	Wireframes for multiple standard screen sizes
 ## Langing page
 <img src="./docs/Wireframes/1 - landing page.drawio.png" alt="Wireframe"> 
 
@@ -229,7 +233,7 @@ User stories are a fundamental component of agile software development methodolo
 ## Plan your trip page
 <img src="./docs/Wireframes/4 - planning page.drawio.png" alt="Wireframe">
 
-## Mt Trips page
+## My Trips page
 <img src="./docs/Wireframes/5 - my trips page.drawio.png" alt="Wireframe">
 
 ## User profile page
