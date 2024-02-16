@@ -20,11 +20,48 @@ Client X has specified that they will be providing services to three main event 
 
 ## Functionality / features
 
+### Login and Registration functionality 
+Users have the capability to register to the app by using their email address and a secure password. Robust authentication procedures ensure the confidentiality and security of user accounts Users have the ability to log in to the application using their email and selected password. 
+### Search Bar feature
+The application features a search bar which allows a user to search for a bus route based on four  criteria starting location, end location, date and time. Upon searching the application navigates the user to an information page showing information based on their search criteria.
+### Functionality to reserve a ticket 
+Users have the ability to reserve a ticket for a selected bus route. They also have the ability to select multiple tickets for a selected route. 
+### Navigation Bar feature
+The application provides a user friendly interface that allows users to easily navigate across the web pages. It features a navigation bar which allows users to navigate to the home page, their user profile and their reservations  
+### Reservations 
+The application allows users to view their current reservations for bus routes. It also allows a user to update or delete their current reservations. 
+### Locations 
+Admin users have the capability to create new locations for pick up and drop off. They also have the ability to update and delete current locations in the application. 
+
+
 
 ## Target audience
 The application is targeted towards members of the general public who will be attending events at the Brisbane 2032 olympics. The web application is strategically designed to cater to a diverse audience with varying needs and preferences. It is accessible and user friendly for individuals of all backgrounds and abilities. Whether the user is a Brisbane resident, an international visitor, an athlete or an official/volunteer, the web application ensures an intuitive navigation to ensure seamless access to the free shuttle bus service. 
 
 ## Tech stack 	GENERAL
+### MongoDB 
+MongoDB is a NoSQL database management system which stores data in a flexible JSON-like format
+### Express.js
+Express.js is a web application framework which provides tools for creating and handling routes and  managing HTTP requests. 
+### React
+React is a JavaScript library which provides a framework for building dynamic user interfaces with reusable components. 
+### Node.js
+Node.js is a runtime environment which allows for the execution of JavaScript code on the server side
+### Mongoose
+Mongoose is an Object Data Modeling library for MongoDB and Node.js which provides a schema-based approach to modelling the data within the application. 
+
+### Third Party Applications / Libraries
+
+- **express -jwt** - JWT is utilised for user authentication and authorisation purposes
+- **Bcrypt** - used to securely store users information (passwords) as a hash
+- **Vitest and Testing-Library**: testing frameworks used for front end testing 
+- **Supertest** - testing framework used for API unit testing
+- **MongoDB Atlas** - cloud database service used for database deployment 
+- **Render** - cloud-based software used for backend deployment 
+- **Netlify** - platform that provides hosting and deployment services, used for front end deployment  
+- **GitHub & Git** : version control 
+- **Trello**: project management tool 
+- **Draw.io**: used as a design tool to develop DFDs and wireframes 
 
 
 # R2 	Dataflow Diagrams
