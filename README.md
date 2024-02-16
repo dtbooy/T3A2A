@@ -211,6 +211,51 @@ User stories are a fundamental component of agile software development methodolo
 
 
 # R5 	Wireframes for multiple standard screen sizes, created using industry standard software
+## Langing page
+<img src="./docs/Wireframes/1 - landing page.drawio.png" alt="Wireframe"> 
+
+## Sign in page
+<img src="./docs/Wireframes/7 - sign in page.drawio.png" alt="Wireframe">
+
+## Register a new user page
+<img src="./docs/Wireframes/8 - register page.drawio.png" alt="Wireframe">
+
+## Trip search and result page
+<img src="./docs/Wireframes/2 - trips page.drawio.png" alt="Wireframe">
+
+## Book a trip page
+<img src="./docs/Wireframes/3 - trip booking page.drawio.png" alt="Wireframe">
+
+## Plan your trip page
+<img src="./docs/Wireframes/4 - planning page.drawio.png" alt="Wireframe">
+
+## Mt Trips page
+<img src="./docs/Wireframes/5 - my trips page.drawio.png" alt="Wireframe">
+
+## User profile page
+<img src="./docs/Wireframes/6 - user profile.drawio.png" alt="Wireframe">
+
+## All routes page (Admin Only)
+<img src="./docs/Wireframes/9 - all routes admin.drawio.png" alt="Wireframe">
+
+## Create a new route page (Admin Only)
+<img src="./docs/Wireframes/10 - new route admin.drawio.png" alt="Wireframe">
+
+## Edit a route page (Admin Only)
+<img src="./docs/Wireframes/11 - edit route admin.drawio.png" alt="Wireframe">
+
+## All users page (Admin Only)
+<img src="./docs/Wireframes/12 - all users admin.drawio.png" alt="Wireframe">
+
+## All reservations page (Admin Only)
+<img src="./docs/Wireframes/13 - all res admin.drawio.png" alt="Wireframe">
+
+
+
+
+
+
+
 
 # R6 	Trello Board Screenshots 
 [Our Trello Board](https://trello.com/b/eErgaOOb/t3a2-team-board)
