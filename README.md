@@ -95,7 +95,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 4. If password hashes do not match an Error is returned
 5. If password hashes match bearer token is return
 
-<img src="docs/images/dataflow_img//2.png" alt="Image Alt Text" style="margin-top: 50px;">
+<img src="docs/Images/dataflow_img//2.png" alt="Image Alt Text" style="margin-top: 50px;">
 
 1. User fills in registration form
 2. Post request to API with registration information
@@ -105,7 +105,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 6. Log in new user - Call auth() function (creates bearer token)
 7. Return bearer token, user view is redirected to home page (now logged in)
 
-<img src="docs/images/dataflow_img/3.png" alt="Image Alt Text" style="margin-top: 50px;">
+<img src="docs/Images/dataflow_img/3.png" alt="Image Alt Text" style="margin-top: 50px;">
 
 1. User logs in
 2. User navigates to user information page
@@ -116,7 +116,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
    - Delete request sent to API 
    - User document is deleted from database
 
-<img src="docs/images/dataflow_img/5.png" alt="Image Alt Text" style="margin-top: 50px;">
+<img src="docs/Images/dataflow_img/5.png" alt="Image Alt Text" style="margin-top: 50px;">
 
 1. User signs in
 2. Upon successful login the user is taken to the home screen
@@ -125,7 +125,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 5. The selected routes are returned to be displayed
 6. The user is displayed the appropriate bus routes based on their search parameters 
 
-<img src="docs/images/dataflow_img/4.png" alt="Image Alt Text" style="margin-top: 50px;">
+<img src="docs/Images/dataflow_img/4.png" alt="Image Alt Text" style="margin-top: 50px;">
 
 1. Admin signs in
 2. Upon successful login, admin is taken to the home screen
@@ -141,7 +141,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 
 
 
-<img src="docs/images/dataflow_img/6.png" alt="Image Alt Text" style="margin-top: 50px;">
+<img src="docs/Images/dataflow_img/6.png" alt="Image Alt Text" style="margin-top: 50px;">
 
 1. User signs in  
 2. Post request to User collection  
@@ -161,7 +161,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
    - If admin selects delete location, a delete request sent to API
    - Location document is deleted from the database
 
-<img src="docs/images/dataflow_img/7.png" alt="Image Alt Text" style="margin-top: 50px;">
+<img src="docs/Images/dataflow_img/7.png" alt="Image Alt Text" style="margin-top: 50px;">
 
 1. User signs in  
 2. Post request to User collection  
@@ -181,7 +181,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
    - When delete reservation is selected a delete request is sent to the API
    - Reservations document is deleted from the database
 
-<img src="docs/images/dataflow_img/8.png" alt="Image Alt Text" style="margin-top: 50px;">
+<img src="docs/Images/dataflow_img/8.png" alt="Image Alt Text" style="margin-top: 50px;">
 
 1. User signs in  
 2. Post request to User collection  
@@ -194,7 +194,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 <p>&nbsp;</p>
 
 # R3 	Application Architecture Diagram
-<img src="docs/images/Architecture Diagram/Architecture.png" alt="Application Architecture Diagram">
+<img src="docs/Images/Architecture Diagram/Architecture.png" alt="Application Architecture Diagram">
 
 Users access the web app through a variety of different devices. Front end / client side renders the views and handles the user interactions. It will request data from the back end through API calls, and dynamically render the webpages based on the API response data. The Back end receives requests from the front end and applies application logic and will send requests to the database. The database receives queries from the backend and returns stores the requested data.
 
@@ -224,43 +224,43 @@ User stories are a fundamental component of agile software development methodolo
 
 # R5 	Wireframes for multiple standard screen sizes
 ## Landing page
-<img src="./docs/images/Wireframes/1 - landing page.drawio.png" alt="Wireframe"> 
+<img src="./docs/Images/Wireframes/1 - landing page.drawio.png" alt="Wireframe"> 
 
 ## Sign in page
-<img src="./docs/images/Wireframes/7 - sign in page.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/7 - sign in page.drawio.png" alt="Wireframe">
 
 ## Register a new user page
-<img src="./docs/images/Wireframes/8 - register page.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/8 - register page.drawio.png" alt="Wireframe">
 
 ## Trip search and result page
-<img src="./docs/images/Wireframes/2 - trips page.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/2 - trips page.drawio.png" alt="Wireframe">
 
 ## Book a trip page
-<img src="./docs/images/Wireframes/3 - trip booking page.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/3 - trip booking page.drawio.png" alt="Wireframe">
 
 ## Plan your trip page
-<img src="./docs/images/Wireframes/4 - planning page.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/4 - planning page.drawio.png" alt="Wireframe">
 
 ## My Trips page
-<img src="./docs/images/Wireframes/5 - my trips page.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/5 - my trips page.drawio.png" alt="Wireframe">
 
 ## User profile page
-<img src="./docs/images/Wireframes/6 - user profile.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/6 - user profile.drawio.png" alt="Wireframe">
 
 ## All routes page (Admin Only)
-<img src="./docs/images/Wireframes/9 - all routes admin.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/9 - all routes admin.drawio.png" alt="Wireframe">
 
 ## Create a new route page (Admin Only)
-<img src="./docs/images/Wireframes/10 - new route admin.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/10 - new route admin.drawio.png" alt="Wireframe">
 
 ## Edit a route page (Admin Only)
-<img src="./docs/images/Wireframes/11 - edit route admin.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/11 - edit route admin.drawio.png" alt="Wireframe">
 
 ## All users page (Admin Only)
-<img src="./docs/images/Wireframes/12 - all users admin.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/12 - all users admin.drawio.png" alt="Wireframe">
 
 ## All reservations page (Admin Only)
-<img src="./docs/images/Wireframes/13 - all res admin.drawio.png" alt="Wireframe">
+<img src="./docs/Images/Wireframes/13 - all res admin.drawio.png" alt="Wireframe">
 
 
 
@@ -274,16 +274,16 @@ User stories are a fundamental component of agile software development methodolo
 
 
 
-<img src="./docs/images/Trello Screenshots/day 1.png" alt="Trello Screenshot">
-<img src="./docs/images/Trello Screenshots/day 2.png" alt="Trello Screenshot">
-<img src="./docs/images/Trello Screenshots/day2.png" alt="Trello Screenshot">
-<img src="./docs/images/Trello Screenshots/day_2.png" alt="Trello Screenshot">
-<img src="./docs/images/Trello Screenshots/day3.png" alt="Trello Screenshot">
-<img src="./docs/images/Trello Screenshots/day_3.png" alt="Trello Screenshot">
-<img src="./docs/images/Trello Screenshots/day 4.png" alt="Trello Screenshot">
-<img src="./docs/images/Trello Screenshots/day5.png" alt="Trello Screenshot">
-<img src="./docs/images/Trello Screenshots/day6.png" alt="Trello Screenshot">
-<img src="./docs/images/Trello Screenshots/day7.png" alt="Trello Screenshot">
+<img src="./docs/Images/Trello Screenshots/day 1.png" alt="Trello Screenshot">
+<img src="./docs/Images/Trello Screenshots/day 2.png" alt="Trello Screenshot">
+<img src="./docs/Images/Trello Screenshots/day2.png" alt="Trello Screenshot">
+<img src="./docs/Images/Trello Screenshots/day_2.png" alt="Trello Screenshot">
+<img src="./docs/Images/Trello Screenshots/day3.png" alt="Trello Screenshot">
+<img src="./docs/Images/Trello Screenshots/day_3.png" alt="Trello Screenshot">
+<img src="./docs/Images/Trello Screenshots/day 4.png" alt="Trello Screenshot">
+<img src="./docs/Images/Trello Screenshots/day5.png" alt="Trello Screenshot">
+<img src="./docs/Images/Trello Screenshots/day6.png" alt="Trello Screenshot">
+<img src="./docs/Images/Trello Screenshots/day7.png" alt="Trello Screenshot">
 
 
 
