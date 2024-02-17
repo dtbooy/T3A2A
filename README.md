@@ -211,7 +211,7 @@ User stories are a fundamental component of agile software development methodolo
 | As an admin I want to be able to grant admin privileges so that if my business grows I can add more admins | Given that I am logged in as an admin user when viewing a list of all users then I can grant admin privileges to individual users | MEDIUM | Accept | 2 |
 
 # R5 	Wireframes for multiple standard screen sizes
-## Langing page
+## Landing page
 <img src="./docs/Wireframes/1 - landing page.drawio.png" alt="Wireframe"> 
 
 ## Sign in page
