@@ -59,15 +59,14 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 
 - **express -jwt** - JWT is utilised for user authentication and authorisation purposes
 - **Bcrypt** - used to securely store users information (passwords) as a hash
-- **Vitest and Testing-Library**: testing frameworks used for front end testing 
-- **Supertest** - testing framework used for API unit testing
-- **MongoDB Atlas** - cloud database service used for database deployment 
+- **Vitest and Testing-Library**: testing framework and library used for front end testing 
+- **Jest and Supertest** - testing framework and library used for API unit testing
+- **MongoDB Atlas** - cloud database service used for Mongo NoSQL database deployment 
 - **Render** - cloud-based software used for backend deployment 
 - **Netlify** - platform that provides hosting and deployment services, used for front end deployment
 - **GitHub & Git** : version control 
 - **Trello**: project management tool 
 - **Draw.io**: used as a design tool to develop DFDs and wireframes 
-
 
 # R2 	Dataflow Diagrams
 <img src="docs/dataflow_img/1.png" alt="Image Alt Text">
@@ -76,12 +75,12 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 2. Login route:
  * Receives Post with request username and request password
  * Gets user document where username = request username from database
- * Compare password hashes, if match pass user document to auth()
+ * Compare password hashes, if match pass user document to auth() function
 3. Create bearer token including:
  * exp: 1 hour
  * sub: user_id
  * isAdmin: isAdmin
-4. If password hashes do not match an Error is returned
+4. If password hashes do not match an error is returned
 5. If password hashes match bearer token is return
 
 <img src="docs/dataflow_img/2.png" alt="Image Alt Text" style="margin-top: 50px;">
@@ -92,7 +91,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 4. If verification fails - return an error message and display on registration page
 5. On passing verification add user to database
 6. Log in new user - Call auth() function (creates bearer token)
-7. Return user to home page (logged in)
+7. Return bearer token, user view is redirected to home page (now logged in)
 
 <img src="docs/dataflow_img/3.png" alt="Image Alt Text" style="margin-top: 50px;">
 
@@ -111,7 +110,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 2. Upon successful login the user is taken to the home screen
 3. User searches for a bus route by providing three inputs: date, location and time  
 4. Upon searching a get request is sent to the db to receive the appropriate routes in the route collection 
-5. The selected routes are return to be displayed
+5. The selected routes are returned to be displayed
 6. The user is displayed the appropriate bus routes based on their search parameters 
 
 <img src="docs/dataflow_img/4.png" alt="Image Alt Text" style="margin-top: 50px;">
@@ -184,6 +183,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 
 # R3 	Application Architecture Diagram
 <img src="docs/Architecture Diagram/Architecture.png" alt="Application Architecture Diagram">
+
 Users access the web app through a variety of different devices. Front end / client side renders the views and handles the user interactions. It will request data from the back end through API calls, and dynamically render the webpages based on the API response data. The Back end receives requests from the front end and applies application logic and will send requests to the database. The database receives queries from the backend and returns stores the requested data.
 
 # R4 	User Stories
@@ -209,10 +209,6 @@ User stories are a fundamental component of agile software development methodolo
 | As an admin I want to be able to delete services and all reserved tickets so that if the service is no longer displayed. | Given that I am logged in as an admin user when I navigate to the ‘All Bus Routes’ then I should see a list of all existing bus routes with an option to delete a single service (deleting all reservations within that service as well) | HIGH | Accept | 2 |
 | As an admin I want to be able to delete user accounts so that if a user contact’s me to delete their account I can. | Given that I am logged in as an admin user when viewing a list of all users then I can delete a individual user’s account | MEDIUM | Accept | 2 |
 | As an admin I want to be able to grant admin privileges so that if my business grows I can add more admins | Given that I am logged in as an admin user when viewing a list of all users then I can grant admin privileges to individual users | MEDIUM | Accept | 2 |
-
-
-
-
 
 # R5 	Wireframes for multiple standard screen sizes
 ## Langing page
