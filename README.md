@@ -69,7 +69,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 - **Draw.io**: used as a design tool to develop DFDs and wireframes 
 
 # R2 	Dataflow Diagrams
-<img src="docs/dataflow_img/1.png" alt="Image Alt Text">
+<img src="docs/Images/dataflow_img/1.png" alt="Image Alt Text">
 
 1. User fills out login form, WebClient sends Post request to API with entered username & password
 2. Login route:
@@ -125,12 +125,12 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 5. The selected routes are returned to be displayed
 6. The user is displayed the appropriate bus routes based on their search parameters 
 
-<img src="docs/Images/dataflow_img/4.png" alt="Image Alt Text" style="margin-top: 50px;">
+<img src="docs/Images/dataflow_img/9..png" alt="Image Alt Text" style="margin-top: 50px;">
 
 1. Admin signs in
 2. Upon successful login, admin is taken to the home screen
-3. Admin searches for available routes
-4. List of available routes are returned and displayed to the user based on their search criteria
+3. Admin navigates to all routes page
+4. List of all routes are returned and displayed to the user based on their search criteria
 5. Admin selects a route from the available routes and can proceed to update or delete route 
 6. Admin can select to update route details
    - Sends a PUT request to the route collection 
@@ -261,6 +261,9 @@ User stories are a fundamental component of agile software development methodolo
 
 ## All reservations page (Admin Only)
 <img src="./docs/Images/Wireframes/13 - all res admin.drawio.png" alt="Wireframe">
+
+## All locations (Admin Only)
+<img src="./docs/Images/Wireframes/14 - locations page admin.drawio.png" alt="Wireframe">
 
 
 
