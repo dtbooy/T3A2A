@@ -73,6 +73,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 
 1. User fills out login form, WebClient sends Post request to API with entered username & password
 2. Login route:
+<<<<<<< Updated upstream
  * Receives Post with request username and request password
  * Gets user document where username = request username from database
  * Compare password hashes, if match pass user document to auth() function
@@ -81,6 +82,16 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
  * sub: user_id
  * isAdmin: isAdmin
 4. If password hashes do not match an error is returned
+=======
+   - Receives Post with request username and request password
+   - Gets user document where username = request username from database
+   - Compare password hashes, if match pass user document to auth()
+3. Create bearer token including:
+   - exp: 1 hour
+   - sub: user_id
+   - isAdmin: isAdmin
+4. If password hashes do not match an Error is returned
+>>>>>>> Stashed changes
 5. If password hashes match bearer token is return
 
 <img src="docs/dataflow_img/2.png" alt="Image Alt Text" style="margin-top: 50px;">
