@@ -24,7 +24,7 @@ Client X has specified that they will be providing services to three main event 
 ## Functionality / features
 
 ### Login and Registration functionality 
-Users have the capability to register to the app by using their email address and a secure password. Robust authentication procedures ensure the confidentiality and security of user accounts Users have the ability to log in to the application using their email and selected password. 
+Users have the capability to register to the app by using their email address and a secure password. Robust authentication procedures ensure the confidentiality and security of user accounts. Users have the ability to log in to the application using their email and selected password. 
 ### Search Bar feature
 The application features a search bar which allows a user to search for a bus route based on four criteria starting location, end location, date and time. Upon searching the application navigates the user to an information page showing information based on their search criteria.
 ### Functionality to reserve a ticket 
@@ -181,7 +181,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
    - When delete reservation is selected a delete request is sent to the API
    - Reservations document is deleted from the database
 
-<img src="docs/Images/dataflow_img/8.png" alt="Image Alt Text" style="margin-top: 50px;">
+<img src="docs/Images/dataflow_img/10.png" alt="Image Alt Text" style="margin-top: 50px;">
 
 1. User signs in  
 2. Post request to User collection  
@@ -190,6 +190,7 @@ Mongoose is an Object Data Modelling library for MongoDB and Node.js which provi
 5. If Admin, option to view all reservations
 6. A get request is sent to Reservation Collection 
 7. Response data lists all the reservations
+9. Admin can select to delete reservation from the reservation collection
 
 <p>&nbsp;</p>
 
